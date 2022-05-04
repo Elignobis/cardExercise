@@ -8,15 +8,102 @@
     <link rel="stylesheet" href="./styles/style.css">
     <title>Card Exercise</title>
 </head>
-<body>
+<body style="background-image: url(./imgs/jackson-so-_t-l5FFH8VA-unsplash.jpg);">
 
 
-        <div class="card w-25">
+        <!-- <div class="card w-25">
             <img class="card-img-top opacity-50% img-fluid" src="./imgs/sam-albury-oA7MMRxTVzo-unsplash.jpg" alt="Profile">
             <div class="card-img-overlay ">
                 <h4 class="card-title bg-gradient text-white">Sibongile Rwayi</h4>
                 <a href="#" class="btn btn-primary">Click here for more</a>
             </div>
+        </div> -->
+
+        <!-- table -->
+
+
+       <!-- <div class="table-responsive-lg">
+            <table
+            class="table m-auto mt-2 table-bordered text-center table-primary
+            table-hover table-striped">
+                <thead>
+                    <th scope="col">Row numbers</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Surname</th>
+                    <th scope="col">Course</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Joel</td>
+                        <td>Mukanya</td>
+                        <td>AI</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2 </th>
+                        <td>Mike</td>
+                        <td>Peter</td>
+                        <td>Software Engineering</td>
+                    </tr>
+                </tbody>
+            </table>   
+        </div>  -->
+
+        <!-- form -->
+
+        <div class="container text-white w-75 mx-auto rounded p-2 align-items-center" style="background-image: url(./imgs/aryan-dhiman-iGLLtLINSkw-unsplash.jpg);">
+            <h2 class="text-center display-5 p-3">Please fill in the details</h2>
+            <form class="form w-75 m-auto my-5" action="https://formspree.io/f/myyobvqb" method="post">
+                <div class="row">
+                    <label for="name" class="col-md-2 col-form-label-lg">Name:</label>
+                    <div class="col-8">
+                        <input type="text" id="name" name="name" placeholder="Name" class="form-control" required>
+                    </div>
+                </div>
+                <div class="row my-4">
+                    <label for="surname" class="col-md-2 col-form-label-lg">Surname:</label>
+                    <div class="col-8">
+                        <input type="text" id="surname" name="surname" placeholder="Surname" class="form-control" required>
+                    </div>
+                </div>
+                <div class="row my-4">
+                    <label for="age" class="col-md-2 col-form-label-lg">Age:</label>
+                    <div class="col-8">
+                        <input type="number" id="age" name="age" placeholder="Age" class="form-control" required>
+                    </div>
+                </div>
+                <div class="row my-4">
+                    <label for="gender" class="col-md-2 col-form-label-lg">Gender:</label>
+                    <div class="col-8 my-3 d-flex justify-content-around">
+                        <span class="ms-3">Male <input type="radio" id="gender" name="gender" placeholder="Gender" required></span>
+                        <span class="ms-1">Female <input type="radio" id="gender" name="gender" placeholder="Gender" required></span>
+                    </div>
+                </div>
+                <div class="row my-4">
+                    <label for="subject" class="col-md-2 col-form-label-lg">Subject:</label>
+                    <div class="col-8">
+                        <select name="subject" id="subject" class="form-select">
+                            <option value="options">Options</option>
+                            <option value="html5">HTML 5</option>
+                            <option value="css3">CSS 3</option>
+                            <option value="javastript">Javastript</option>
+                            <option value="bootstrap">Bootstrap</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row my-4">
+                    <label for="message" class="col-md-2 col-form-label-lg">Message:</label>
+                    <div class="col-8 form-floating">
+                        <textarea name="message" id="message" class="h-100 w-100"></textarea>
+                    </div>
+                </div>
+                <div class="row my-4">
+                    <label class="col-md-2 col-form-label-lg"></label>
+                    <div class="col-8">
+                        <input type="submit" class="btn btn-success w-100 ">
+                    </div>
+                </div>
+            </form>
         </div>
  
 
